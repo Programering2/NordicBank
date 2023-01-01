@@ -1,0 +1,24 @@
+C:\Programing\NordicBank\BankClassLibrary\bin\Debug\BankClassLibrary.dll
+C:\Programing\NordicBank\BankClassLibrary\bin\Debug\BankClassLibrary.pdb
+C:\Programing\NordicBank\BankClassLibrary\obj\Debug\BankClassLibrary.csproj.AssemblyReference.cache
+C:\Programing\NordicBank\BankClassLibrary\obj\Debug\BankClassLibrary.csproj.CoreCompileInputs.cache
+C:\Programing\NordicBank\BankClassLibrary\obj\Debug\BankClassLibrary.dll
+C:\Programing\NordicBank\BankClassLibrary\obj\Debug\BankClassLibrary.pdb
+G:\My Drive\Programming\NordicBank\BankClassLibrary\bin\Debug\BankClassLibrary.dll
+G:\My Drive\Programming\NordicBank\BankClassLibrary\bin\Debug\BankClassLibrary.pdb
+G:\My Drive\Programming\NordicBank\BankClassLibrary\obj\Debug\BankClassLibrary.csproj.AssemblyReference.cache
+G:\My Drive\Programming\NordicBank\BankClassLibrary\obj\Debug\BankClassLibrary.csproj.CoreCompileInputs.cache
+G:\My Drive\Programming\NordicBank\BankClassLibrary\obj\Debug\BankClassLibrary.dll
+G:\My Drive\Programming\NordicBank\BankClassLibrary\obj\Debug\BankClassLibrary.pdb
+G:\Min enhet\Programming\NordicBank\BankClassLibrary\bin\Debug\BankClassLibrary.dll
+G:\Min enhet\Programming\NordicBank\BankClassLibrary\bin\Debug\BankClassLibrary.pdb
+G:\Min enhet\Programming\NordicBank\BankClassLibrary\obj\Debug\BankClassLibrary.csproj.AssemblyReference.cache
+G:\Min enhet\Programming\NordicBank\BankClassLibrary\obj\Debug\BankClassLibrary.csproj.CoreCompileInputs.cache
+G:\Min enhet\Programming\NordicBank\BankClassLibrary\obj\Debug\BankClassLibrary.dll
+G:\Min enhet\Programming\NordicBank\BankClassLibrary\obj\Debug\BankClassLibrary.pdb
+C:\Users\lilje\Desktop\Programing\NordicBank\BankClassLibrary\bin\Debug\BankClassLibrary.dll
+C:\Users\lilje\Desktop\Programing\NordicBank\BankClassLibrary\bin\Debug\BankClassLibrary.pdb
+C:\Users\lilje\Desktop\Programing\NordicBank\BankClassLibrary\obj\Debug\BankClassLibrary.csproj.AssemblyReference.cache
+C:\Users\lilje\Desktop\Programing\NordicBank\BankClassLibrary\obj\Debug\BankClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\lilje\Desktop\Programing\NordicBank\BankClassLibrary\obj\Debug\BankClassLibrary.dll
+C:\Users\lilje\Desktop\Programing\NordicBank\BankClassLibrary\obj\Debug\BankClassLibrary.pdb

@@ -1,0 +1,71 @@
+C:\Programing\NordicBank\NordicBank\bin\Debug\NordicBank.exe.config
+C:\Programing\NordicBank\NordicBank\bin\Debug\NordicBank.exe
+C:\Programing\NordicBank\NordicBank\bin\Debug\NordicBank.pdb
+C:\Programing\NordicBank\NordicBank\obj\Debug\NordicBank.csproj.AssemblyReference.cache
+C:\Programing\NordicBank\NordicBank\obj\Debug\NordicBank.csproj.SuggestedBindingRedirects.cache
+C:\Programing\NordicBank\NordicBank\obj\Debug\NordicBank.DashBoard.resources
+C:\Programing\NordicBank\NordicBank\obj\Debug\NordicBank.Login.resources
+C:\Programing\NordicBank\NordicBank\obj\Debug\NordicBank.Properties.Resources.resources
+C:\Programing\NordicBank\NordicBank\obj\Debug\NordicBank.Signup.resources
+C:\Programing\NordicBank\NordicBank\obj\Debug\NordicBank.Transfer.resources
+C:\Programing\NordicBank\NordicBank\obj\Debug\NordicBank.csproj.GenerateResource.cache
+C:\Programing\NordicBank\NordicBank\obj\Debug\NordicBank.csproj.CoreCompileInputs.cache
+C:\Programing\NordicBank\NordicBank\obj\Debug\NordicBank.exe
+C:\Programing\NordicBank\NordicBank\obj\Debug\NordicBank.pdb
+C:\Programing\NordicBank\NordicBank\bin\Debug\BankClassLibrary.dll
+C:\Programing\NordicBank\NordicBank\bin\Debug\BankClassLibrary.pdb
+C:\Programing\NordicBank\NordicBank\obj\Debug\NordicBank.csproj.CopyComplete
+G:\My Drive\Programming\NordicBank\NordicBank\bin\Debug\NordicBank.exe.config
+G:\My Drive\Programming\NordicBank\NordicBank\bin\Debug\NordicBank.exe
+G:\My Drive\Programming\NordicBank\NordicBank\bin\Debug\NordicBank.pdb
+G:\My Drive\Programming\NordicBank\NordicBank\bin\Debug\BankClassLibrary.dll
+G:\My Drive\Programming\NordicBank\NordicBank\bin\Debug\BankClassLibrary.pdb
+G:\My Drive\Programming\NordicBank\NordicBank\obj\Debug\NordicBank.csproj.AssemblyReference.cache
+G:\My Drive\Programming\NordicBank\NordicBank\obj\Debug\NordicBank.csproj.SuggestedBindingRedirects.cache
+G:\My Drive\Programming\NordicBank\NordicBank\obj\Debug\NordicBank.DashBoard.resources
+G:\My Drive\Programming\NordicBank\NordicBank\obj\Debug\NordicBank.Login.resources
+G:\My Drive\Programming\NordicBank\NordicBank\obj\Debug\NordicBank.Properties.Resources.resources
+G:\My Drive\Programming\NordicBank\NordicBank\obj\Debug\NordicBank.Signup.resources
+G:\My Drive\Programming\NordicBank\NordicBank\obj\Debug\NordicBank.Transfer.resources
+G:\My Drive\Programming\NordicBank\NordicBank\obj\Debug\NordicBank.csproj.GenerateResource.cache
+G:\My Drive\Programming\NordicBank\NordicBank\obj\Debug\NordicBank.csproj.CoreCompileInputs.cache
+G:\My Drive\Programming\NordicBank\NordicBank\obj\Debug\NordicBank.csproj.CopyComplete
+G:\My Drive\Programming\NordicBank\NordicBank\obj\Debug\NordicBank.exe
+G:\My Drive\Programming\NordicBank\NordicBank\obj\Debug\NordicBank.pdb
+G:\Min enhet\Programming\NordicBank\NordicBank\bin\Debug\NordicBank.exe.config
+G:\Min enhet\Programming\NordicBank\NordicBank\bin\Debug\NordicBank.exe
+G:\Min enhet\Programming\NordicBank\NordicBank\bin\Debug\NordicBank.pdb
+G:\Min enhet\Programming\NordicBank\NordicBank\bin\Debug\BankClassLibrary.dll
+G:\Min enhet\Programming\NordicBank\NordicBank\bin\Debug\BankClassLibrary.pdb
+G:\Min enhet\Programming\NordicBank\NordicBank\obj\Debug\NordicBank.csproj.AssemblyReference.cache
+G:\Min enhet\Programming\NordicBank\NordicBank\obj\Debug\NordicBank.csproj.SuggestedBindingRedirects.cache
+G:\Min enhet\Programming\NordicBank\NordicBank\obj\Debug\NordicBank.DashBoard.resources
+G:\Min enhet\Programming\NordicBank\NordicBank\obj\Debug\NordicBank.Login.resources
+G:\Min enhet\Programming\NordicBank\NordicBank\obj\Debug\NordicBank.Properties.Resources.resources
+G:\Min enhet\Programming\NordicBank\NordicBank\obj\Debug\NordicBank.Signup.resources
+G:\Min enhet\Programming\NordicBank\NordicBank\obj\Debug\NordicBank.Transfer.resources
+G:\Min enhet\Programming\NordicBank\NordicBank\obj\Debug\NordicBank.csproj.GenerateResource.cache
+G:\Min enhet\Programming\NordicBank\NordicBank\obj\Debug\NordicBank.csproj.CoreCompileInputs.cache
+G:\Min enhet\Programming\NordicBank\NordicBank\obj\Debug\NordicBank.csproj.CopyComplete
+G:\Min enhet\Programming\NordicBank\NordicBank\obj\Debug\NordicBank.exe
+G:\Min enhet\Programming\NordicBank\NordicBank\obj\Debug\NordicBank.pdb
+G:\Min enhet\Programming\NordicBank\NordicBank\obj\Debug\NordicBank.UserInfo.resources
+G:\My Drive\Programming\NordicBank\NordicBank\obj\Debug\NordicBank.UserInfo.resources
+C:\Users\lilje\Desktop\Programing\NordicBank\NordicBank\bin\Debug\NordicBank.exe.config
+C:\Users\lilje\Desktop\Programing\NordicBank\NordicBank\bin\Debug\NordicBank.exe
+C:\Users\lilje\Desktop\Programing\NordicBank\NordicBank\bin\Debug\NordicBank.pdb
+C:\Users\lilje\Desktop\Programing\NordicBank\NordicBank\bin\Debug\BankClassLibrary.dll
+C:\Users\lilje\Desktop\Programing\NordicBank\NordicBank\bin\Debug\BankClassLibrary.pdb
+C:\Users\lilje\Desktop\Programing\NordicBank\NordicBank\obj\Debug\NordicBank.csproj.AssemblyReference.cache
+C:\Users\lilje\Desktop\Programing\NordicBank\NordicBank\obj\Debug\NordicBank.csproj.SuggestedBindingRedirects.cache
+C:\Users\lilje\Desktop\Programing\NordicBank\NordicBank\obj\Debug\NordicBank.DashBoard.resources
+C:\Users\lilje\Desktop\Programing\NordicBank\NordicBank\obj\Debug\NordicBank.Login.resources
+C:\Users\lilje\Desktop\Programing\NordicBank\NordicBank\obj\Debug\NordicBank.Properties.Resources.resources
+C:\Users\lilje\Desktop\Programing\NordicBank\NordicBank\obj\Debug\NordicBank.Signup.resources
+C:\Users\lilje\Desktop\Programing\NordicBank\NordicBank\obj\Debug\NordicBank.Transfer.resources
+C:\Users\lilje\Desktop\Programing\NordicBank\NordicBank\obj\Debug\NordicBank.UserInfo.resources
+C:\Users\lilje\Desktop\Programing\NordicBank\NordicBank\obj\Debug\NordicBank.csproj.GenerateResource.cache
+C:\Users\lilje\Desktop\Programing\NordicBank\NordicBank\obj\Debug\NordicBank.csproj.CoreCompileInputs.cache
+C:\Users\lilje\Desktop\Programing\NordicBank\NordicBank\obj\Debug\NordicBank.csproj.CopyComplete
+C:\Users\lilje\Desktop\Programing\NordicBank\NordicBank\obj\Debug\NordicBank.exe
+C:\Users\lilje\Desktop\Programing\NordicBank\NordicBank\obj\Debug\NordicBank.pdb
