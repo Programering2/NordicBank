@@ -35,7 +35,7 @@ namespace NordicBank
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e) //när login klickas på
         {
            int tempSocialNumber = int.Parse(this.textBox2.Text);
             int tempPincode = 0;
@@ -44,9 +44,9 @@ namespace NordicBank
                 tempPincode = int.Parse(this.textBox1.Text);
             }
 
-            if (myBank.CheckUserInformation(tempSocialNumber, tempPincode))
+            if (myBank.CheckUserInformation(tempSocialNumber, tempPincode)) //om textbox informationerna matchar 
             {
-                myBank.setActiveUser(tempSocialNumber);
+                myBank.setActiveUser(tempSocialNumber); //vi ger banken nyckeln till den aktiva användaren
                 DashBoard dashBoard = new DashBoard(myBank);
                 this.Hide();
                 dashBoard.Show();

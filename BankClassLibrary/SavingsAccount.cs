@@ -13,7 +13,7 @@ namespace BankClassLibrary
         bool TransferLock;
         float LockTime;
 
-        public SavingsAccount(Banken bank):base(bank)
+        public SavingsAccount(Banken bank):base(bank) //derived constructor
         { 
         }
 

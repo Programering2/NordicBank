@@ -20,13 +20,13 @@ namespace NordicBank
             this.myBank = myBank;
         }
 
-        private void DashBoard_Load(object sender, EventArgs e)
+        private void DashBoard_Load(object sender, EventArgs e) //när dashboard laddar in
         {
-            timer1.Start();
-            UpdateDisplay();
-            if (!myBank.getUser(myBank.getActiveUserKey()).getHasLoggedInOnce())
+            timer1.Start(); //vi startar timern
+            UpdateDisplay(); //initialiserar displayen 
+            if (!myBank.getUser(myBank.getActiveUserKey()).getHasLoggedInOnce()) //har vi redan loggat in? annars måste user fylla i mer information
             {
-                UserInfo uif = new UserInfo(myBank);
+                UserInfo uif = new UserInfo(myBank); //öppnar en ny tillfällit fönster där användare kan fylla i information
                 uif.ShowDialog();
                 UpdateDisplay();
             }
@@ -39,20 +39,20 @@ namespace NordicBank
         }
 
 
-        private void timer1_Tick(object sender, EventArgs e)
+        private void timer1_Tick(object sender, EventArgs e) //för varje tick, timer avänds för min dropdown menu för att kunna animera den på ett snyggt set
         {
-            if (isCollapsed)
+            if (isCollapsed) //är den nedragen
             {
                 caret.Image = NordicBank.Properties.Resources.caretUpTrans;
                 BetalningDropMenu.Height += 10;
                 l_översikt.Visible = false;
-                if (BetalningDropMenu.Size == BetalningDropMenu.MaximumSize)
+                if (BetalningDropMenu.Size == BetalningDropMenu.MaximumSize) //den kan max dras ner till hit
                 {
-                    timer1.Stop();
+                    timer1.Stop(); 
                     isCollapsed = false;
                 }
             }
-            else
+            else //inte nerdragen
             {
                 l_översikt.Visible = true;
                 caret.Image = NordicBank.Properties.Resources.caretDownTrans;
@@ -71,7 +71,7 @@ namespace NordicBank
             timer1.Start();
         }
 
-        private void UpdateDisplay()
+        private void UpdateDisplay() //updatera display med userinformation, bör bara anropas när något värde ändrats
         {
             this.P_amount.Text = myBank.getUser(myBank.getActiveUserKey()).GetPersonalAccount().getBalance().ToString() + "Kr";
             this.P_kontoNummer.Text = myBank.getUser(myBank.getActiveUserKey()).GetPersonalAccount().getBankNumber().ToString();

@@ -11,38 +11,42 @@ namespace BankClassLibrary
         //fields
 
         int activeUser; 
-        Dictionary<int,User> users = new Dictionary<int,User>();
-        public Banken()
+        Dictionary<int,User> users = new Dictionary<int,User>(); // directory där varje user binds ihopp med ett personnummer
+        public Banken() //constructor
         {
         }
 
-        public void clearDictionary(int key)
+        public void clearDictionary(int key) //en funktion som raderar en användare
         { 
             users.Remove(key);
         }
-        public void clearWholeDictionary()
+        public void clearWholeDictionary() //funktion för att rensa hela dictionarie
         { 
             users.Clear();
         }
-        public void AddUser(int socialNumber, int pinCode, int phoneNumber)
+        public void AddUser(int socialNumber, int pinCode, int phoneNumber) //en function för att lägga till ny användare
         {
             clearDictionary(socialNumber);
-            users.Add(socialNumber, new User(phoneNumber, socialNumber, pinCode, this));
+            users.Add(socialNumber, new User(phoneNumber, socialNumber, pinCode, this)); //vi lägger till en ny användare i dictionary och binder den med socialnumber
         }
-        public void RemoveUser(int socialNumber)
+        public void RemoveUser(int socialNumber) // funktion för att ta bort användare
         { 
             users.Remove(socialNumber);
         }
-        public bool CheckUserInformation(int SocialNumber, int Pincode)
+        public bool CheckUserInformation(int SocialNumber, int Pincode) //vi kollar om checkuser information matchar med det som kommer in
         {
-            if (users.ContainsKey(SocialNumber) && users[SocialNumber].getPincode() == Pincode)
+            if (users.ContainsKey(SocialNumber)) //finns den?
             {
+                if(users[SocialNumber].getPincode() == Pincode)//stämmer koden?
+                {
+
                     return true;
+                }
                
             } else return false;
         }
 
-        public string GetNameOfAccountOwner(int accountNumber)
+        public string GetNameOfAccountOwner(int accountNumber) //använder accountnumber för att anropa getName på tillhörande user
         {
             if (users.ContainsKey(accountNumber))
             {
@@ -51,11 +55,11 @@ namespace BankClassLibrary
             else return "";
         }
 
-        public void SubmitTransfer(Transaction trans)
+        public void SubmitTransfer(Transaction trans) //vi tar hand om transfer
         {
-            users[(int)trans.getRecievingTransactionNumber()].GetPersonalAccount().AddBalance(trans.getAmount());
+            users[(int)trans.getRecievingTransactionNumber()].GetPersonalAccount().AddBalance(trans.getAmount()); //adera saldo
             users[(int)trans.getRecievingTransactionNumber()].AddTrans(trans);
-            users[(int)trans.getTransmittingTransactionNumber()].GetPersonalAccount().subtractBalance(trans.getAmount());
+            users[(int)trans.getTransmittingTransactionNumber()].GetPersonalAccount().subtractBalance(trans.getAmount()); //subtrahera saldo
             users[(int)trans.getTransmittingTransactionNumber()].AddTrans(trans);
 
         }

@@ -17,14 +17,14 @@ namespace NordicBank
         [STAThread]
         static void Main()
         {
-            loadData();
+            loadData(); // lada ner alla users från en .txt
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Login(minBank));
+            Application.Run(new Login(minBank)); // vi vill starta med Login sidan
 
         }
 
-        static void loadData()
+        static void loadData()//läs in användarna 
         {
             minBank = BankClassLibrary.FileHandler.ReadFile(BankClassLibrary.FileHandler.FileName);
         }

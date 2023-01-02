@@ -14,13 +14,13 @@ namespace NordicBank
     {
 
         BankClassLibrary.Banken myBank = new BankClassLibrary.Banken();
-        public Signup(BankClassLibrary.Banken bank)
+        public Signup(BankClassLibrary.Banken bank) // constructor
         {
             InitializeComponent();
             myBank = bank;
         }
 
-        private void Link_Label_Click(object sender, EventArgs e)
+        private void Link_Label_Click(object sender, EventArgs e) //vi vill till login sidan istället
         {
           this.Hide();
             Login login = new Login(myBank);
@@ -32,12 +32,12 @@ namespace NordicBank
 
         }
 
-        private void Register_btn_Click(object sender, EventArgs e)
+        private void Register_btn_Click(object sender, EventArgs e) // vi vill registrera användaren
         {
             int tempSocialNumber = int.Parse(textBox2.Text);
             int tempPincode = int.Parse(textBox2.Text);
 
-            if (!myBank.CheckUserInformation(tempSocialNumber, tempPincode))
+            if (!myBank.CheckUserInformation(tempSocialNumber, tempPincode)) //om den här personen inte redan finns, viktigt vi vill inte ha duplicates
             {
                 myBank.AddUser(tempSocialNumber, tempPincode, 123456789);
                 myBank.setActiveUser(tempSocialNumber);

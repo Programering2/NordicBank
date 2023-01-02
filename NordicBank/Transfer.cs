@@ -27,17 +27,17 @@ namespace NordicBank
 
         private void button1_Click(object sender, EventArgs e) //överför
         {
-            int SendingAccount = int.Parse(t_transmitter.Text);
+            int SendingAccount = int.Parse(t_transmitter.Text); //ta in data från textfields
             int Amount = int.Parse(t_Amount.Text);
 
-            if (SendingAccount != RecievingAccount)
+            if (SendingAccount != RecievingAccount) //man kan inte skicka till samma konto
             {
-                if (Amount > 0)
+                if (Amount > 0) //har du mer än 0 kr?
                 {
-                    if (Amount < myBank.getUser(myBank.getActiveUserKey()).GetPersonalAccount().getBalance())
+                    if (Amount < myBank.getUser(myBank.getActiveUserKey()).GetPersonalAccount().getBalance()) //du vill skicka mindre än vad du har
                     {
 
-                        BankClassLibrary.Transaction transaction = new BankClassLibrary.Transaction(Amount, RecievingAccount, SendingAccount, myBank);
+                        BankClassLibrary.Transaction transaction = new BankClassLibrary.Transaction(Amount, RecievingAccount, SendingAccount, myBank); //överföringen godkänd
                         myBank.SubmitTransfer(transaction); //genomför transaktionen
                         ErrorMsg.Text = "ÖÄverföring Lyckades!";
                         ErrorMsg.ForeColor = Color.Green;
@@ -57,12 +57,12 @@ namespace NordicBank
             //if account is a personalAccount display name after enter 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e) //stäng ner
         {
             Close();
         }
 
-        private void T_recievingEnd_Leave(object sender, EventArgs e)
+        private void T_recievingEnd_Leave(object sender, EventArgs e) //skriver in namnet på banknummret när användaren lämnar textbox med musen
         {
             string owner = "";
             RecievingAccount = int.Parse(T_recievingEnd.Text);

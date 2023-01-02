@@ -45,6 +45,7 @@ namespace BankClassLibrary
                     UserIndex = i;
                     break;
                 }
+                
             }
 
             /* Nu när vi letat efter användaren så updaterar vi vår databas i txt filen*/

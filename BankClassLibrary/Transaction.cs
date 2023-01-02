@@ -15,7 +15,7 @@ namespace BankClassLibrary
         float transmittingTransactionNumber;
         Banken myBank = new Banken();
 
-        public Transaction(float Amount, float RecievingTransactionNumber, float transmittingTransactionNumber, Banken bank)
+        public Transaction(float Amount, float RecievingTransactionNumber, float transmittingTransactionNumber, Banken bank) //constructor
         {
             this.Amount = Amount;
             this.RecievingTransactionNumber = RecievingTransactionNumber;

@@ -11,7 +11,7 @@ namespace BankClassLibrary
         //fields
         Card card = new Card(123);
 
-        public PersonalAccount(float SocialNumber, Banken bank):base(bank)
+        public PersonalAccount(float SocialNumber, Banken bank):base(bank) //derived constructor från Account
         {
             setBankNumber((int)SocialNumber);
             Random random = new Random();

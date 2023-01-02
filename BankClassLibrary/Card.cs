@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace BankClassLibrary
 {
-    public class Card
+    public class Card 
     {
         //fields
 
         float cardNumber;
 
-        public Card(float cardNumber)
+        public Card(float cardNumber) // constructor för kortet
         { 
             this.cardNumber = cardNumber;
         }

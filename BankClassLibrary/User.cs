@@ -55,23 +55,10 @@ namespace BankClassLibrary
             Accounts.Add(new Account(myBank));
         }
 
-        public Account getAccountByIndex(int index)
-        { 
-            return Accounts[index];
-        }
-
-        public PersonalAccount GetPersonalAccount()
-        {
-            return personalAccount;
-        }
-
-        public int getNumberOfAccounts()
-        {
-            return Accounts.Count;
-        }
+     
 
 
-        public void CloseAccount(int Banknumber)
+        public void CloseAccount(int Banknumber) //ta bort ett konto
         {
             int temp = -1;
 
@@ -120,7 +107,20 @@ namespace BankClassLibrary
 
 
         //getters
+        public Account getAccountByIndex(int index)
+        { 
+            return Accounts[index];
+        }
 
+        public PersonalAccount GetPersonalAccount()
+        {
+            return personalAccount;
+        }
+
+        public int getNumberOfAccounts()
+        {
+            return Accounts.Count;
+        }
 
         public bool getHasLoggedInOnce()
         {
